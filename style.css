@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #D9CDF7;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    width: 449;
+    margin-bottom: 30px;
+}
+
+.options{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4rem;
+    margin-top: 10px;
+}
+
+.options > i {
+    font-size: 35px;
+    
+}
+
+.options > i.stop-360{
+    display: none;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+.options > img.active-360 {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+}
+
+.card-left > img {
+    width: 450px ;
+}
+
+.card-right {
+    display: flex;
+    height: 220px;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.card-right > p {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 12px;
+    color: #271A45;
+}
+
+.card-right > h1 {
+    font-family: 'Crimson Pro', serif;
+    font-size: 32px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    color: #271A45;
+}
+
+.card-right > h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #271A45;
+}
+
+.add-to-cart {
+    background: #D9CDF7;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid #271A45;
+    border-radius: 2rem;
+    width: 200px;
+    height: 32px;
+    cursor: pointer;
+    color: #271A45;
+}
+
+.add-to-cart:hover {
+    background: #271A45;
+    color: white;
+    transition: 0.3s;
+}
